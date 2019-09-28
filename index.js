@@ -1,18 +1,10 @@
-var fs = require('fs');
-var moment = require('moment');
+import fs from 'fs';
+import { replacer } from './utils';
+import { DATE_REGEX } from './constants';
 
-var filename = './example.txt';
+const filename = './example.txt';
 
-var content = fs.readFileSync(filename, 'utf8');
-
-var regex = /(\d\d\/\d\d\/\d\d)/g;
-
-function replacer(match, date, offset, string) {
-  return moment(date, 'DD/MM/YY')
-    .add(112, 'days')
-    .format('DD/MM/YY');
-}
-
-var newContent = content.replace(regex, replacer);
+const content = fs.readFileSync(filename, 'utf8');
+const newContent = content.replace(DATE_REGEX, replacer);
 
 console.log(newContent);

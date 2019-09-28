@@ -1,14 +1,20 @@
 {
   "name": "ht-date-shifter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tool for shifting dates",
   "main": "index.js",
+  "bin": {
+    "htdateshift": "bin/htdateshift"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "rferromoreno <rferromoreno@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "moment": "^2.24.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
   }
 }
