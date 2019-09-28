@@ -2,9 +2,12 @@
   "name": "ht-date-shifter",
   "version": "1.0.0",
   "description": "A tool for shifting dates",
-  "main": "index.js",
+  "main": "src/index.js",
+  "pkg": {
+    "scripts": "./src/*.js"
+  },
   "bin": {
-    "htdateshift": "bin/htdateshift"
+    "htdateshift": "./src/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
