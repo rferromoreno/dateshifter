@@ -11,10 +11,10 @@
   },
   "author": "rferromoreno <rferromoreno@gmail.com>",
   "license": "ISC",
-  "devDependencies": {
-    "moment": "^2.24.0"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "esm": "^3.2.25"
+    "esm": "^3.2.25",
+    "moment": "^2.24.0",
+    "yargs": "^14.0.0"
   }
 }
