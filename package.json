@@ -7,7 +7,7 @@
     "scripts": "./src/*.js"
   },
   "bin": {
-    "htdateshift": "./src/index.js"
+    "dateshift": "./src/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
