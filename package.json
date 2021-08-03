@@ -1,5 +1,5 @@
 {
-  "name": "ht-date-shifter",
+  "name": "date-shifter",
   "version": "1.0.0",
   "description": "A tool for shifting dates",
   "main": "src/index.js",
@@ -14,10 +14,9 @@
   },
   "author": "rferromoreno <rferromoreno@gmail.com>",
   "license": "ISC",
-  "devDependencies": {},
   "dependencies": {
     "esm": "^3.2.25",
-    "moment": "^2.24.0",
-    "yargs": "^14.0.0"
+    "moment": "^2.29.1",
+    "yargs": "^17.0.1"
   }
 }
